@@ -5,7 +5,7 @@ A deep learning project that classifies handwritten digits (0–9) using a Convo
 It also includes an interactive GUI where users can draw digits and get real-time predictions.
 
 🚀 Features
-CNN model trained on the MNIST dataset
+CNN model trained on MNIST dataset
 High accuracy on test data
 Predicts handwritten digits from images
 Interactive Tkinter GUI for drawing digits
@@ -31,6 +31,7 @@ MaxPooling2D (2×2)
 Flatten
 Dense (64 units) + ReLU
 Dense (10 units) + Softmax
+
 📁 Project Structure
 digit-classifier-cnn/
 │
@@ -39,12 +40,14 @@ digit-classifier-cnn/
 ├── draw_predict.py       # Tkinter GUI for drawing digits
 ├── model.keras           # Saved trained model
 └── README.md
+
 ⚙️ Installation
 1. Clone the repository
-git clone https://github.com/your-username/digit-classifier-cnn.git
+git clone https://github.com/RDS-06/digit-classifier-cnn.git
 cd digit-classifier-cnn
 2. Install dependencies
 pip install -r requirements.txt
+
 🏃 How to Run
 🔹 Train the model
 python train.py
@@ -52,30 +55,26 @@ python train.py
 python predict.py
 🔹 Run GUI app
 python draw_predict.py
+
 🎨 GUI Features
 Draw digits using mouse
-Click “Predict” to classify digit
+Predict digit with one click
 Clear canvas option
-Shows prediction + confidence score
+Shows prediction with confidence score
+
 📈 Output Example
 Prediction: 7 (98.45%)
 Actual: 7
+
 🔥 Future Improvements
 Add Streamlit web app version
 Improve accuracy with data augmentation
 Add confusion matrix visualization
 Deploy as web app
 Real-time webcam digit detection
-👨‍💻 Author
 
+👨‍💻 Author
 Built as a deep learning project to understand CNNs and image classification.
 
 ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub and feel free to improve it!
-
-📦 requirements.txt
-tensorflow
-numpy
-matplotlib
-pillow
+If you like this project, give it a ⭐ on GitHub and feel free to improve it!
